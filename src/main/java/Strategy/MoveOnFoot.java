@@ -1,8 +1,10 @@
 package Strategy;
 
-public class OnFoot implements Activity {
+public class MoveOnFoot implements Moving {
+    private static final String MESSAGE = "Иду пешком...";
+
     @Override
-    public void move() {
-        System.out.println("Иду пешком...");
+    public String move() {
+        return MESSAGE;
     }
 }

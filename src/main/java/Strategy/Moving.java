@@ -1,5 +1,5 @@
 package Strategy;
 
-public interface Activity {
-    public void move();
+public interface Moving {
+    String move();
 }
